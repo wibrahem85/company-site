@@ -1,0 +1,376 @@
+:root {
+    --maincolor: #ffc300;
+    --backcolor: #f9f7f7;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Markazi Text', serif;
+
+}
+
+header {
+    height: 100px;
+    clear: right;
+}
+
+header div {
+    margin: 0;
+    float: right;
+
+}
+
+header div.special-p {
+    padding: 35px 30px 5px 0;
+    font-size: 25px;
+    color: #868585;
+    font-weight: 400;
+
+}
+
+header div.special-p input {
+    border: none;
+    padding: 5px 30px 5px 0;
+    font-size: 20px;
+    color: #868585;
+    font-weight: 400;
+    opacity: .5;
+}
+
+header div img {
+    width: 40%;
+    padding: 10px;
+    padding-right: 45px;
+    padding-left: 0;
+}
+
+header .border-div {
+    height: 50px;
+    border-right: 1px solid #e2dede;
+    margin-top: 22px;
+}
+
+
+header i.fas.fa-angle-down {
+    padding-top: 6px;
+    font-size: 23px;
+}
+
+header div.pb {
+    font-size: 18px;
+    color: #cac7c7;
+    padding-left: 250px;
+    padding-top: 40px;
+}
+
+header div.pb2 {}
+
+header div.last {
+    padding: 20px 30px 5px 0;
+}
+
+header i.fa-search {
+    background-color: var(--maincolor);
+    padding: 18px;
+    color: white;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 200px;
+    color: #928888;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 8px;
+    padding-left: 15px;
+    border-right: 1px solid #e6e3e3;
+}
+
+nav ul li.first {
+    border: none;
+    border-bottom: 3px solid var(--maincolor);
+}
+
+nav ul li.first a {
+    color: var(--maincolor);
+}
+
+nav i.fa-building {
+    background: black
+}
+
+main {
+    height: auto;
+    clear: right;
+    padding: 10px;
+}
+
+main aside,
+nav {
+    height: auto;
+}
+
+/********************************************/
+main aside.Raside {
+    border: 7px solid var(--backcolor);
+    padding: 0 0 5px 5px;
+    margin-top: 19px;
+}
+
+main section img.top-section-img {
+    height: 135px;
+    background: white;
+    padding: 5px;
+    border: 6px solid var(--backcolor);
+}
+
+aside.Laside {
+    border: 5px solid var(--backcolor);
+    margin-top: 20px;
+    margin-right: 22px;
+    background: var(--backcolor);
+    padding: 2px;
+}
+
+main .Laside img:first-of-type {
+    margin-top: 0;
+    background: white;
+    margin: 5px;
+    margin-top: 0;
+}
+
+main .Laside img:last-of-type {
+    margin-right: 10px;
+    background: white;
+    padding: 5px;
+    width: 90%;
+}
+
+/*****************************************/
+main .Raside img.special-height-img {
+    height: 250px;
+    width: 89%;
+    padding-top: 17px;
+}
+
+main .Raside p.bordered-p {
+    border-bottom: 1.4px solid #f3f1f1;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    width: 75%;
+}
+
+main .Raside .bordered-p i.fas.fa-calendar-alt {
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--maincolor);
+    margin-left: 5px;
+}
+
+.Raside-menu {
+    clear: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+    background: var(--backcolor);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+
+.Raside-menu img {
+    width: 18%;
+
+}
+
+section div.container div.parent {
+    clear: left;
+    background: var(--backcolor);
+    padding: 0px 10px 0px 35px;
+}
+
+section div.container div.bordered-div {
+    background: none;
+    padding: 5px 5px 5px 30px;
+}
+
+section div.container div img {
+    width: 35%;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin-left: -40px;
+    margin-right: 0;
+}
+
+.Raside-menu .pelements {
+    float: left;
+    margin-left: 165px;
+    margin-top: -9px;
+    font-size: 14px;
+    color: #9e9b9b
+}
+
+.Raside-menu .pelements p {
+    margin-bottom: 0;
+}
+
+
+main aside {
+    width: 20%;
+    float: right;
+    padding-left: 10px
+}
+
+main section {
+    width: 55%;
+    float: right;
+    padding: 20px 5px;
+
+}
+
+main section img.top-section-img {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 168px
+}
+
+main section p.depts {
+    padding-right: 10px;
+    font-size: 20px;
+    color: #969191;
+    font-family: 'Markazi Text', serif;
+
+}
+
+main section p,
+main section ul li a {
+    color: #9e9b9b;
+}
+
+main aside img,
+main section img {
+    width: 97%;
+}
+
+main section ul,
+main .Raside ul {
+    list-style-type: none;
+}
+
+main section ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+main section ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main section p.text-center {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main section .first-ul li a,
+main section .second-ul li a {
+    text-decoration: none;
+    color: #969191;
+    background-color: #f9f7f7;
+    padding: 10px 18px;
+}
+
+main section p.text-center a {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    padding: 15px 25px;
+    background-color: var(--maincolor);
+    text-decoration: none;
+
+}
+
+section div.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 30px;
+
+}
+
+section div.container .pelements p {
+    color: #9e9b9b;
+    margin-bottom: -5px;
+}
+
+section div.container .bordered-div {
+    border-left: 1.5px solid #f3f1f1;
+    padding-left: 15px;
+}
+
+section div.container .bordered-div i {
+    font-size: 26px;
+    padding-right: 25px;
+    color: #afa8a8;
+}
+
+section div.container .bordered-div p.first-p {
+    font-size: 16px;
+}
+
+section div.container div img {
+    width: 30%;
+    margin-right: 30px;
+    margin-left: -40px;
+}
+
+section div.container div img {
+    width: 40%;
+    margin-right: 0;
+    margin-left: -40px;
+    padding-right: 0;
+    padding-top: 20px;
+}
+
+section div.container div.parent {
+    clear: left;
+}
+
+section div.container div.pelements {
+    float: left;
+    margin-top: 0;
+    margin-right: -100px;
+    font-size: 14px;
+}
+
+section .footer-img {
+    padding-top: 20px;
+    width: 94%;
+    padding-right: 25px;
+}
+
+/**********************
+main .Laside img:first-of-type {
+    margin-top: -15px;
+}
+
+/***********************/
+main .Laside img:last-of-type {
+    height: 480px;
+    width: 80%;
+    padding-right: 15px;
+}

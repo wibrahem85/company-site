@@ -1,0 +1,269 @@
+header {
+    clear: right
+}
+
+/****************** 
+header div.back {
+    background: var(--backcolor)
+}
+
+/****************/
+
+header div.special-p input {
+    border: none;
+    padding: 5px 30px 5px 0;
+    font-size: 20px;
+    color: #868585;
+    font-weight: 400;
+    opacity: .5;
+}
+
+header div.last:hover {
+    cursor: pointer
+}
+
+header .circle-icons {
+    display: flex;
+    align-items: center;
+}
+
+header .circle-icons i {
+    display: inline-block;
+
+}
+
+header .circle-icons i:hover {
+    cursor: pointer
+}
+
+header .circle-icons i.round-icon {
+    color: white;
+    background: var(--maincolor);
+    border-radius: 50%;
+    padding: 10px 7px;
+    font-size: 20px;
+    margin: 30px 4px;
+}
+
+header .circle-icons i.not-round {
+    color: var(--maincolor);
+    font-size: 30px;
+    margin-right: 35px;
+    margin-left: 10px;
+}
+
+header .circle-icons i:first-child {
+    margin-right: 25px
+}
+
+header .circle-icons i.fa-envelope {
+    padding-right: 20px;
+    margin-left: 10px;
+    border-right: 1px solid #efecec;
+}
+
+header .circle-icons img {
+    width: 10%;
+    padding-right: 15px;
+
+}
+
+main aside.Raside {
+    border: 7px solid var(--backcolor);
+    padding: 0 0 5px 5px;
+    margin-top: 19px;
+}
+
+.Raside-menu {
+    clear: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+    background: var(--backcolor);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+
+main .Raside img.special-height-img {
+    margin-right: 15px;
+}
+
+main section {
+    padding: 20px 15px;
+}
+
+main section img.top-section-img {
+    height: 135px;
+    background: white;
+    padding: 5px;
+    border: 6px solid var(--backcolor);
+}
+
+main section p.heading span.background {
+    background-color: #f9f7f7;
+    padding: 5px 5px 5px 18px;
+    font-size: 20px;
+}
+
+main section p.heading i.fa-angle-left {
+    padding: 0 13px;
+}
+
+main section p.dept {
+    display: inline-block;
+}
+
+main section p.dept {
+    background: var(--backcolor);
+    padding: 20px 30px 20px 10px;
+    width: 200px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+main section p.dept span:last-child {
+    padding-right: 130px;
+}
+
+main section a.view {
+    text-decoration: none;
+    background: var(--maincolor);
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+
+}
+
+main section article {
+    background: var(--backcolor);
+    padding: 5px 15px 0 0px;
+    border-radius: 20px;
+    height: auto;
+    /* clear: left;*/
+}
+
+main section article div.parent {
+    /************************************** */
+    width: 48%;
+    height: auto;
+    /* float: left;*/
+    display: inline-block
+}
+
+main section article div.parent:last-child {
+    margin-right: 15px;
+}
+
+main section article ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+    display: block;
+}
+
+main section article ul li {
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 0;
+    background: white;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 13px;
+}
+
+main section article div.parent ul li div.first {
+    width: 20%;
+    display: inline-block
+}
+
+main section article div.parent ul li div.first img {
+    width: 95%;
+    height: 95%;
+    border: 3.8px solid var(--backcolor);
+}
+
+main section article div.parent ul li div.second {
+    width: 50%;
+    display: inline-block;
+    padding: 0 10px;
+    border-left: 2px solid var(--backcolor);
+}
+
+main section article div.parent ul li div.second p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+main section article div.parent ul li div.second p:first-child i {
+    color: white;
+    background-color: blue;
+    padding: 3px;
+    margin-right: 5px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+main section article div.parent ul li div.second p:not(first-child) i {
+    padding-left: 5px;
+}
+
+main section article div.parent ul li div.third {
+    width: 29%;
+    display: inline-block;
+    padding: 20px 5px 20px 0;
+
+}
+
+main section article div.parent ul li div.third i:not(last-child) {
+    color: var(--maincolor);
+    padding: .5px;
+}
+
+main section article div.parent ul li div.third i:nth-child(5) {
+    color: lightgray;
+    padding: 0;
+}
+
+main section article div.parent ul li div.third hr {
+    height: 0;
+    border: 1px solid var(--backcolor);
+    display: block;
+    margin: 18px 2px 18px;
+}
+
+main section article div.parent ul li div.third a {
+    background: var(--maincolor);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main section article div.parent ul li div.third a i {
+    color: white;
+    padding-left: 5px;
+}
+
+aside.Laside {
+    border: 5px solid var(--backcolor);
+    margin-top: 20px;
+    margin-right: 13px;
+    background: var(--backcolor);
+    padding: 2px;
+}
+
+main .Laside img:first-of-type {
+    margin-top: 0;
+    background: white;
+    margin: 5px;
+}
+
+main .Laside img:last-of-type {
+    margin-right: 10px;
+    background: white;
+    padding: 5px;
+    width: 90%;
+}

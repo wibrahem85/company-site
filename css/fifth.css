@@ -1,0 +1,169 @@
+header .circle-icons {
+    display: flex;
+    align-items: center;
+
+}
+
+header .circle-icons i {
+    display: inline-block;
+
+}
+
+header .circle-icons i:hover {
+    cursor: pointer
+}
+
+header .circle-icons i.round-icon {
+    color: white;
+    background: var(--maincolor);
+    border-radius: 50%;
+    padding: 10px 7px;
+    font-size: 20px;
+    margin: 30px 4px;
+}
+
+header .circle-icons i.not-round {
+    color: var(--maincolor);
+    font-size: 30px;
+    margin-right: 35px;
+    margin-left: 10px;
+}
+
+header .circle-icons i:first-child {
+    margin-right: 200px;
+    margin-left: -10px;
+}
+
+header .circle-icons i.fa-envelope {
+    padding-right: 20px;
+    margin-left: 10px;
+    border-right: 1px solid #efecec;
+}
+
+header .circle-icons img {
+    width: 15%;
+    padding-right: 60px;
+
+}
+
+nav ul li.first {
+    border-bottom: none;
+}
+
+nav ul li.first a {
+    color: black;
+}
+
+.Raside-menu {
+    clear: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+    background: var(--backcolor);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+
+main section img.top-section-img {
+    height: 190px;
+    width: 97.5%;
+}
+
+div.pelements i {
+    padding-left: 5px;
+}
+
+section .top2-section-img {
+    width: 20%;
+    background: white;
+    margin-top: -140px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+section p.icons {
+    background: var(--backcolor);
+    padding: 20px 225px 20px 10px;
+    margin-top: -75px;
+    font-size: 25px;
+}
+
+section p.icons i.fa-instagram {
+    margin-right: 220px;
+}
+
+section p.icons i {
+    padding: 8px;
+    background: var(--maincolor);
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+section p.icons span {
+    font-size: 15px;
+    padding: 8px 3px 8px 8px;
+    background: var(--maincolor);
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+section p.icons span i {
+
+    padding: 0;
+
+}
+
+section div.container {
+    display: flex;
+    padding: 0;
+}
+
+section div.info {
+
+    width: 50%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ded9d9;
+    padding: 0 10px 0 10px;
+    height: auto
+}
+
+section div.info hr {
+    color: #ded9d9;
+    height: 0;
+    opacity: .2;
+}
+
+section div.info2 {}
+
+section div.contact-info p {
+    margin: 0;
+    margin-bottom: .5rem
+}
+
+section div.contact-info i {
+    padding-left: 5px;
+}
+
+section div.images {
+    display: flex;
+    border: 2px solid var(--backcolor);
+    padding: 10px 10px 20px;
+}
+
+section div.images img {
+    width: 23.5%;
+    height: auto;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+main .Laside img:last-of-type {
+    height: 380px;
+}

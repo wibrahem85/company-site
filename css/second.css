@@ -1,0 +1,67 @@
+header div.special-p input {
+    border: none;
+    padding: 5px 30px 5px 0;
+    font-size: 20px;
+    color: #868585;
+    font-weight: 400;
+    opacity: .5;
+}
+
+/********************************************/
+main aside.Raside {
+    border: 7px solid var(--backcolor);
+    padding: 0 0 5px 5px;
+    margin-top: 19px;
+}
+
+main section img.top-section-img {
+    height: 135px;
+    background: white;
+    padding: 5px;
+    border: 6px solid var(--backcolor);
+}
+
+aside.Laside {
+    border: 5px solid var(--backcolor);
+    margin-top: 20px;
+    margin-right: 22px;
+    background: var(--backcolor);
+    padding: 2px;
+}
+
+main .Laside img:first-of-type {
+    margin-top: 0;
+    background: white;
+    margin: 5px;
+    margin-top: 0;
+}
+
+main .Laside img:last-of-type {
+    margin-right: 10px;
+    background: white;
+    padding: 5px;
+    width: 90%;
+}
+
+/*****************************************/
+section div.container {
+    padding: 20px 5px 30px;
+}
+
+section div.container div.parent {
+    padding-left: 75px;
+}
+
+section div.container div.parent {
+    clear: left;
+    background: var(--backcolor);
+    padding: 0px 5px 15px 30px;
+}
+
+section div.container div img {
+    width: 35%;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin-left: -40px;
+    margin-right: 0;
+}

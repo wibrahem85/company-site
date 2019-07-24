@@ -1,0 +1,61 @@
+main section{  
+    border-left: none;
+    height: 668px;
+    border-bottom: none
+}
+main section p.message{
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding: 10px 30px;
+    display:flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+main section p.message i{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+main section div.person{
+     border: none!important;
+    background: var(--backcolor);
+    margin: auto;
+    clear: both;
+    width: 96%;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 19px;
+    display: flex;
+    align-items: center;
+}
+main section div.person i.fa-exclamation-triangle{
+  float: right;
+    width: 15%;
+   font-size: 30px;
+    padding-right: 20px;
+    color: var(--maincolor);
+   
+}
+main section div.person img{
+  float: right;
+    width: 8%;
+     padding-right: 15px;
+   
+}
+main section div.person div.parent{ 
+    margin: 0 -60px 0 0;
+}
+main section div.person div.parent2{ 
+    margin: 0;
+}
+main section div.person div.parent p.last {
+    font-size: 18px;
+}
+
+main .Laside img:last-of-type{
+    width: 93%;
+    padding-right: 0; 
+}
+main .Raside img.special-height-img{
+    width: 97%;
+}
